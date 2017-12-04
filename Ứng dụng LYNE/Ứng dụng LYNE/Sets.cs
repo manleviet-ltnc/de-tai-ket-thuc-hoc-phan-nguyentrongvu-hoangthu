@@ -23,6 +23,7 @@ namespace Ứng_dụng_LYNE
             frmStage1 dlg = new frmStage1();
             dlg.ShowDialog();
             this.Close();
+           
         }
 
         private void btnStage2_Click(object sender, EventArgs e)

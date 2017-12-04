@@ -34,9 +34,10 @@
             // 
             // btnMenu10
             // 
-            this.btnMenu10.Location = new System.Drawing.Point(34, 28);
+            this.btnMenu10.Location = new System.Drawing.Point(45, 34);
+            this.btnMenu10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenu10.Name = "btnMenu10";
-            this.btnMenu10.Size = new System.Drawing.Size(76, 44);
+            this.btnMenu10.Size = new System.Drawing.Size(101, 54);
             this.btnMenu10.TabIndex = 0;
             this.btnMenu10.Text = "Menu";
             this.btnMenu10.UseVisualStyleBackColor = true;
@@ -44,11 +45,12 @@
             // 
             // frmStage10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(693, 519);
+            this.ClientSize = new System.Drawing.Size(931, 709);
             this.Controls.Add(this.btnMenu10);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmStage10";
             this.Text = "Stage10";
             this.ResumeLayout(false);

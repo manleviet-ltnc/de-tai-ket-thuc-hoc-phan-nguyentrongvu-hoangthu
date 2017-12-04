@@ -44,9 +44,10 @@
             // 
             // btnStage1
             // 
-            this.btnStage1.Location = new System.Drawing.Point(68, 51);
+            this.btnStage1.Location = new System.Drawing.Point(91, 63);
+            this.btnStage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage1.Name = "btnStage1";
-            this.btnStage1.Size = new System.Drawing.Size(77, 36);
+            this.btnStage1.Size = new System.Drawing.Size(103, 44);
             this.btnStage1.TabIndex = 0;
             this.btnStage1.Text = "Stage1";
             this.btnStage1.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             // btnStage2
             // 
-            this.btnStage2.Location = new System.Drawing.Point(186, 51);
+            this.btnStage2.Location = new System.Drawing.Point(248, 63);
+            this.btnStage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage2.Name = "btnStage2";
-            this.btnStage2.Size = new System.Drawing.Size(77, 36);
+            this.btnStage2.Size = new System.Drawing.Size(103, 44);
             this.btnStage2.TabIndex = 0;
             this.btnStage2.Text = "Stage2";
             this.btnStage2.UseVisualStyleBackColor = true;
@@ -64,9 +66,10 @@
             // 
             // btnStage3
             // 
-            this.btnStage3.Location = new System.Drawing.Point(296, 51);
+            this.btnStage3.Location = new System.Drawing.Point(395, 63);
+            this.btnStage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage3.Name = "btnStage3";
-            this.btnStage3.Size = new System.Drawing.Size(77, 36);
+            this.btnStage3.Size = new System.Drawing.Size(103, 44);
             this.btnStage3.TabIndex = 0;
             this.btnStage3.Text = "Stage3";
             this.btnStage3.UseVisualStyleBackColor = true;
@@ -74,9 +77,10 @@
             // 
             // btnStage4
             // 
-            this.btnStage4.Location = new System.Drawing.Point(397, 51);
+            this.btnStage4.Location = new System.Drawing.Point(529, 63);
+            this.btnStage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage4.Name = "btnStage4";
-            this.btnStage4.Size = new System.Drawing.Size(77, 36);
+            this.btnStage4.Size = new System.Drawing.Size(103, 44);
             this.btnStage4.TabIndex = 0;
             this.btnStage4.Text = "Stage4";
             this.btnStage4.UseVisualStyleBackColor = true;
@@ -84,9 +88,10 @@
             // 
             // btnStage5
             // 
-            this.btnStage5.Location = new System.Drawing.Point(493, 51);
+            this.btnStage5.Location = new System.Drawing.Point(657, 63);
+            this.btnStage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage5.Name = "btnStage5";
-            this.btnStage5.Size = new System.Drawing.Size(77, 36);
+            this.btnStage5.Size = new System.Drawing.Size(103, 44);
             this.btnStage5.TabIndex = 0;
             this.btnStage5.Text = "Stage5";
             this.btnStage5.UseVisualStyleBackColor = true;
@@ -94,9 +99,10 @@
             // 
             // btnStage6
             // 
-            this.btnStage6.Location = new System.Drawing.Point(68, 111);
+            this.btnStage6.Location = new System.Drawing.Point(91, 137);
+            this.btnStage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage6.Name = "btnStage6";
-            this.btnStage6.Size = new System.Drawing.Size(77, 36);
+            this.btnStage6.Size = new System.Drawing.Size(103, 44);
             this.btnStage6.TabIndex = 0;
             this.btnStage6.Text = "Stage6";
             this.btnStage6.UseVisualStyleBackColor = true;
@@ -104,9 +110,10 @@
             // 
             // btnStage7
             // 
-            this.btnStage7.Location = new System.Drawing.Point(186, 111);
+            this.btnStage7.Location = new System.Drawing.Point(248, 137);
+            this.btnStage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage7.Name = "btnStage7";
-            this.btnStage7.Size = new System.Drawing.Size(77, 36);
+            this.btnStage7.Size = new System.Drawing.Size(103, 44);
             this.btnStage7.TabIndex = 0;
             this.btnStage7.Text = "Stage7";
             this.btnStage7.UseVisualStyleBackColor = true;
@@ -114,9 +121,10 @@
             // 
             // btnStage8
             // 
-            this.btnStage8.Location = new System.Drawing.Point(296, 111);
+            this.btnStage8.Location = new System.Drawing.Point(395, 137);
+            this.btnStage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage8.Name = "btnStage8";
-            this.btnStage8.Size = new System.Drawing.Size(77, 36);
+            this.btnStage8.Size = new System.Drawing.Size(103, 44);
             this.btnStage8.TabIndex = 0;
             this.btnStage8.Text = "Stage8";
             this.btnStage8.UseVisualStyleBackColor = true;
@@ -124,9 +132,10 @@
             // 
             // btnStage9
             // 
-            this.btnStage9.Location = new System.Drawing.Point(397, 111);
+            this.btnStage9.Location = new System.Drawing.Point(529, 137);
+            this.btnStage9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage9.Name = "btnStage9";
-            this.btnStage9.Size = new System.Drawing.Size(77, 36);
+            this.btnStage9.Size = new System.Drawing.Size(103, 44);
             this.btnStage9.TabIndex = 0;
             this.btnStage9.Text = "Stage9";
             this.btnStage9.UseVisualStyleBackColor = true;
@@ -134,9 +143,10 @@
             // 
             // btnStage10
             // 
-            this.btnStage10.Location = new System.Drawing.Point(493, 111);
+            this.btnStage10.Location = new System.Drawing.Point(657, 137);
+            this.btnStage10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStage10.Name = "btnStage10";
-            this.btnStage10.Size = new System.Drawing.Size(77, 36);
+            this.btnStage10.Size = new System.Drawing.Size(103, 44);
             this.btnStage10.TabIndex = 0;
             this.btnStage10.Text = "Stage10";
             this.btnStage10.UseVisualStyleBackColor = true;
@@ -144,9 +154,10 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(61, 387);
+            this.btnBack.Location = new System.Drawing.Point(81, 476);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(84, 43);
+            this.btnBack.Size = new System.Drawing.Size(112, 53);
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -154,10 +165,10 @@
             // 
             // frmSets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(693, 519);
+            this.ClientSize = new System.Drawing.Size(924, 639);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnStage10);
             this.Controls.Add(this.btnStage9);
@@ -169,6 +180,7 @@
             this.Controls.Add(this.btnStage3);
             this.Controls.Add(this.btnStage2);
             this.Controls.Add(this.btnStage1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSets";
             this.Text = "Sets";
             this.ResumeLayout(false);

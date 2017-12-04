@@ -24,5 +24,10 @@ namespace Ứng_dụng_LYNE
             dlg.ShowDialog();
             this.Close();
         }
+
+        private void frmStage3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
