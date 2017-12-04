@@ -27,7 +27,18 @@ namespace Ứng_dụng_LYNE
 
         private void frmStage3_Load(object sender, EventArgs e)
         {
-
+            pbxStage31.Size = new Size(116, 106);
+            pbxStage32.Size = new Size(116, 106);
+            pbxStage33.Size = new Size(116, 106);
+            pbxStage34.Size = new Size(116, 106);
+            pbxStage35.Size = new Size(116, 106);
+            pbxStage36.Size = new Size(116, 106);
+            pbxStage37.Size = new Size(116, 106);
+            pbxStage38.Size = new Size(116, 106);
+            pbxStage39.Size = new Size(116, 106);
+            pbxStage310.Size = new Size(116, 106);
+            pbxStage311.Size = new Size(116, 106);
+            pbxStage312.Size = new Size(116, 106);
         }
     }
 }

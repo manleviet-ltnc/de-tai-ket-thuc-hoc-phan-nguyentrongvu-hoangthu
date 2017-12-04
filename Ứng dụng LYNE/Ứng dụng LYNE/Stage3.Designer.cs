@@ -30,30 +30,30 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStage3));
             this.btnMenu3 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.pbxStage31 = new System.Windows.Forms.PictureBox();
+            this.pbxStage32 = new System.Windows.Forms.PictureBox();
+            this.pbxStage33 = new System.Windows.Forms.PictureBox();
+            this.pbxStage34 = new System.Windows.Forms.PictureBox();
+            this.pbxStage38 = new System.Windows.Forms.PictureBox();
+            this.pbxStage37 = new System.Windows.Forms.PictureBox();
+            this.pbxStage310 = new System.Windows.Forms.PictureBox();
+            this.pbxStage36 = new System.Windows.Forms.PictureBox();
+            this.pbxStage35 = new System.Windows.Forms.PictureBox();
+            this.pbxStage39 = new System.Windows.Forms.PictureBox();
+            this.pbxStage312 = new System.Windows.Forms.PictureBox();
+            this.pbxStage311 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage310)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage312)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage311)).BeginInit();
             this.SuspendLayout();
             // 
             // btnMenu3
@@ -67,113 +67,113 @@
             this.btnMenu3.UseVisualStyleBackColor = true;
             this.btnMenu3.Click += new System.EventHandler(this.btnMenu3_Click);
             // 
-            // pictureBox1
+            // pbxStage31
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(169, 131);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pbxStage31.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage31.Image")));
+            this.pbxStage31.Location = new System.Drawing.Point(169, 131);
+            this.pbxStage31.Name = "pbxStage31";
+            this.pbxStage31.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage31.TabIndex = 1;
+            this.pbxStage31.TabStop = false;
             // 
-            // pictureBox2
+            // pbxStage32
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(318, 131);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pbxStage32.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage32.Image")));
+            this.pbxStage32.Location = new System.Drawing.Point(318, 131);
+            this.pbxStage32.Name = "pbxStage32";
+            this.pbxStage32.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage32.TabIndex = 1;
+            this.pbxStage32.TabStop = false;
             // 
-            // pictureBox3
+            // pbxStage33
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(468, 131);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.pbxStage33.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage33.Image")));
+            this.pbxStage33.Location = new System.Drawing.Point(468, 131);
+            this.pbxStage33.Name = "pbxStage33";
+            this.pbxStage33.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage33.TabIndex = 1;
+            this.pbxStage33.TabStop = false;
             // 
-            // pictureBox4
+            // pbxStage34
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(622, 131);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
+            this.pbxStage34.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage34.Image")));
+            this.pbxStage34.Location = new System.Drawing.Point(622, 131);
+            this.pbxStage34.Name = "pbxStage34";
+            this.pbxStage34.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage34.TabIndex = 1;
+            this.pbxStage34.TabStop = false;
             // 
-            // pictureBox5
+            // pbxStage38
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(622, 259);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.pbxStage38.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage38.Image")));
+            this.pbxStage38.Location = new System.Drawing.Point(622, 259);
+            this.pbxStage38.Name = "pbxStage38";
+            this.pbxStage38.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage38.TabIndex = 1;
+            this.pbxStage38.TabStop = false;
             // 
-            // pictureBox6
+            // pbxStage37
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(468, 259);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
+            this.pbxStage37.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage37.Image")));
+            this.pbxStage37.Location = new System.Drawing.Point(468, 259);
+            this.pbxStage37.Name = "pbxStage37";
+            this.pbxStage37.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage37.TabIndex = 1;
+            this.pbxStage37.TabStop = false;
             // 
-            // pictureBox7
+            // pbxStage310
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(318, 386);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
+            this.pbxStage310.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage310.Image")));
+            this.pbxStage310.Location = new System.Drawing.Point(318, 386);
+            this.pbxStage310.Name = "pbxStage310";
+            this.pbxStage310.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage310.TabIndex = 1;
+            this.pbxStage310.TabStop = false;
             // 
-            // pictureBox8
+            // pbxStage36
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(318, 259);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox8.TabIndex = 1;
-            this.pictureBox8.TabStop = false;
+            this.pbxStage36.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage36.Image")));
+            this.pbxStage36.Location = new System.Drawing.Point(318, 259);
+            this.pbxStage36.Name = "pbxStage36";
+            this.pbxStage36.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage36.TabIndex = 1;
+            this.pbxStage36.TabStop = false;
             // 
-            // pictureBox9
+            // pbxStage35
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(168, 259);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
+            this.pbxStage35.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage35.Image")));
+            this.pbxStage35.Location = new System.Drawing.Point(168, 259);
+            this.pbxStage35.Name = "pbxStage35";
+            this.pbxStage35.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage35.TabIndex = 1;
+            this.pbxStage35.TabStop = false;
             // 
-            // pictureBox10
+            // pbxStage39
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(168, 386);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
+            this.pbxStage39.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage39.Image")));
+            this.pbxStage39.Location = new System.Drawing.Point(168, 386);
+            this.pbxStage39.Name = "pbxStage39";
+            this.pbxStage39.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage39.TabIndex = 1;
+            this.pbxStage39.TabStop = false;
             // 
-            // pictureBox11
+            // pbxStage312
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(622, 386);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
+            this.pbxStage312.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage312.Image")));
+            this.pbxStage312.Location = new System.Drawing.Point(622, 386);
+            this.pbxStage312.Name = "pbxStage312";
+            this.pbxStage312.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage312.TabIndex = 1;
+            this.pbxStage312.TabStop = false;
             // 
-            // pictureBox12
+            // pbxStage311
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(468, 386);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox12.TabIndex = 1;
-            this.pictureBox12.TabStop = false;
+            this.pbxStage311.Image = ((System.Drawing.Image)(resources.GetObject("pbxStage311.Image")));
+            this.pbxStage311.Location = new System.Drawing.Point(468, 386);
+            this.pbxStage311.Name = "pbxStage311";
+            this.pbxStage311.Size = new System.Drawing.Size(116, 106);
+            this.pbxStage311.TabIndex = 1;
+            this.pbxStage311.TabStop = false;
             // 
             // frmStage3
             // 
@@ -181,35 +181,35 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(931, 709);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbxStage35);
+            this.Controls.Add(this.pbxStage311);
+            this.Controls.Add(this.pbxStage312);
+            this.Controls.Add(this.pbxStage39);
+            this.Controls.Add(this.pbxStage310);
+            this.Controls.Add(this.pbxStage36);
+            this.Controls.Add(this.pbxStage37);
+            this.Controls.Add(this.pbxStage38);
+            this.Controls.Add(this.pbxStage34);
+            this.Controls.Add(this.pbxStage33);
+            this.Controls.Add(this.pbxStage32);
+            this.Controls.Add(this.pbxStage31);
             this.Controls.Add(this.btnMenu3);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmStage3";
             this.Text = "Stage3";
             this.Load += new System.EventHandler(this.frmStage3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage310)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage312)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStage311)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -217,17 +217,17 @@
         #endregion
 
         private System.Windows.Forms.Button btnMenu3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pbxStage31;
+        private System.Windows.Forms.PictureBox pbxStage32;
+        private System.Windows.Forms.PictureBox pbxStage33;
+        private System.Windows.Forms.PictureBox pbxStage34;
+        private System.Windows.Forms.PictureBox pbxStage38;
+        private System.Windows.Forms.PictureBox pbxStage37;
+        private System.Windows.Forms.PictureBox pbxStage310;
+        private System.Windows.Forms.PictureBox pbxStage36;
+        private System.Windows.Forms.PictureBox pbxStage35;
+        private System.Windows.Forms.PictureBox pbxStage39;
+        private System.Windows.Forms.PictureBox pbxStage312;
+        private System.Windows.Forms.PictureBox pbxStage311;
     }
 }

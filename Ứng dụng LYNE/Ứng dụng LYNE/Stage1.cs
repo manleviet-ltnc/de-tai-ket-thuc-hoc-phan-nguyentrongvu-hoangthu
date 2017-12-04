@@ -28,12 +28,11 @@ namespace Ứng_dụng_LYNE
         }
         bool kiemtra=false;
         Graphics g;
-        
-        
+       
         private void pbxImage1_MouseDown(object sender, MouseEventArgs e)
         {
             kiemtra = true;
-              
+           
             
                 
             
@@ -49,6 +48,7 @@ namespace Ứng_dụng_LYNE
         }
         private void pbxImage12_MouseUp(object sender, MouseEventArgs e)
         {
+            
             kiemtra = false;
             g = this.CreateGraphics();
             g.DrawLine(Pens.White, new Point(0,200), new Point(0, 400));

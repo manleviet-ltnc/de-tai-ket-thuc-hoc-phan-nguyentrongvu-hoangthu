@@ -197,6 +197,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmStage5";
             this.Text = "Stage5";
+            this.Load += new System.EventHandler(this.frmStage5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage41.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -732,7 +732,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage42.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -1346,7 +1346,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage43.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -1960,7 +1960,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage46.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -2574,7 +2574,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage45.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAG4AAABYCAYAAAAUeMJLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAACYVJREFUeF7tnYlzFEUUxv3XoUSEJBByk3AEERBRREAOQVFRLDmk1FKuiJhj7/u+
@@ -2621,7 +2621,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage44.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -3235,7 +3235,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage47.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -3849,7 +3849,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage48.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
@@ -4463,7 +4463,7 @@
         ////////////////////////////////////////////////////////////////////AAAA
 </value>
   </data>
-  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxStage49.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk3yjgAAAAAAADYAAAAoAAAAcwAAAGkAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
         ////////////////////////////////////////////////////////////////////////////////
