@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+
 namespace Ứng_dụng_LYNE
 {
     public partial class frmStage1 : Form
@@ -26,15 +27,18 @@ namespace Ứng_dụng_LYNE
             dlg.ShowDialog();
             this.Close();
         }
-        bool kiemtra=false;
+        
         Graphics g;
-       
+        PictureBox dau;
+        PictureBox cuoi;
+        PictureBox Dau;
+        PictureBox Cuoi;
         private void pbxImage1_MouseDown(object sender, MouseEventArgs e)
         {
-            kiemtra = true;
-           
             
-                
+            dau = (PictureBox)sender;
+            
+            
             
         }
 
@@ -46,12 +50,16 @@ namespace Ứng_dụng_LYNE
             pbxImage12.Size = new Size(105, 101);
             pbxImage13.Size = new Size(105, 101);
         }
-        private void pbxImage12_MouseUp(object sender, MouseEventArgs e)
+        
+
+        private void pbxImage1_MouseUp(object sender, MouseEventArgs e)
         {
             
-            kiemtra = false;
+            cuoi = (PictureBox)sender;
+            
+            Pen p = new Pen(Color.White,6F);
             g = this.CreateGraphics();
-            g.DrawLine(Pens.White, new Point(0,200), new Point(0, 400));
+            g.DrawLine(p, dau.Location,cuoi.Location);
             g.Dispose();
         }
     }

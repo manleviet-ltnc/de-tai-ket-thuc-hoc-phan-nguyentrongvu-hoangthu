@@ -59,17 +59,19 @@
             this.pbxImage1.TabIndex = 3;
             this.pbxImage1.TabStop = false;
             this.pbxImage1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseDown);
+            this.pbxImage1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseUp);
             // 
             // pbxImage12
             // 
             this.pbxImage12.BackColor = System.Drawing.Color.Transparent;
-            this.pbxImage12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxImage12.BackgroundImage")));
+            this.pbxImage12.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage12.Image")));
             this.pbxImage12.Location = new System.Drawing.Point(336, 219);
             this.pbxImage12.Name = "pbxImage12";
             this.pbxImage12.Size = new System.Drawing.Size(105, 101);
             this.pbxImage12.TabIndex = 4;
             this.pbxImage12.TabStop = false;
-            this.pbxImage12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pbxImage12_MouseUp);
+            this.pbxImage12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseDown);
+            this.pbxImage12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseUp);
             // 
             // pbxImage13
             // 
@@ -80,6 +82,8 @@
             this.pbxImage13.Size = new System.Drawing.Size(105, 101);
             this.pbxImage13.TabIndex = 4;
             this.pbxImage13.TabStop = false;
+            this.pbxImage13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseDown);
+            this.pbxImage13.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pbxImage1_MouseUp);
             // 
             // frmStage1
             // 
