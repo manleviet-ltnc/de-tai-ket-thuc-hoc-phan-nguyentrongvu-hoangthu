@@ -44,12 +44,12 @@ namespace Ứng_dụng_LYNE
 
 
 
-        private void frmStage1_Load(object sender, EventArgs e)
-        {
-            pbxImage1.Size = new Size(105, 101);
-            pbxImage12.Size = new Size(105, 101);
-            pbxImage13.Size = new Size(105, 101);
-        }
+        ////private void frmStage1_Load(object sender, EventArgs e)
+        ////{
+        ////    pbxImage1.Size = new Size(105, 101);
+        ////    pbxImage12.Size = new Size(105, 101);
+        ////    pbxImage13.Size = new Size(105, 101);
+        ////}
         
 
         private void pbxImage1_MouseUp(object sender, MouseEventArgs e)
@@ -61,6 +61,14 @@ namespace Ứng_dụng_LYNE
             g = this.CreateGraphics();
             g.DrawLine(p, dau.Location,cuoi.Location);
             g.Dispose();
+        }
+
+        private void frmStage1_Paint(object sender, PaintEventArgs e)
+        {
+            Pen p = new Pen(Color.Red, 30);
+            e.Graphics.DrawRectangle(p, new Rectangle(150, 230, 50, 50));
+            e.Graphics.DrawRectangle(p, new Rectangle(350, 230, 50, 50));
+            e.Graphics.DrawRectangle(p, new Rectangle(550, 230, 50, 50));
         }
     }
 }
