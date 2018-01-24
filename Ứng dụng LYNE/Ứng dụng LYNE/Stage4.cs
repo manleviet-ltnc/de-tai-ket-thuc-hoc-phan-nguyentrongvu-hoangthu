@@ -25,17 +25,50 @@ namespace Ứng_dụng_LYNE
             this.Close();
         }
 
+        Manchoi mc;
+        Shape s1;
+        bool drag = false;
+        Rectangle rect;
+        private void frmStage4_Paint(object sender, PaintEventArgs e)
+        {
+            mc.Paint(CreateGraphics());
+
+        }
+
+        Graphics g;
+        private void frmStage4_MouseDown(object sender, MouseEventArgs e)
+        {
+            Shape s = mc.GetShapeClicked(new Point(e.X, e.Y));
+
+            if (s != null)
+            {
+                if (drag)
+                {
+                    // thuc hien kiem tra va noi hai Shape voi nhau
+                    // trong s1
+                    Link l = new Link();
+                    l.begin = s1;
+                    l.end = s;
+                    mc.links.Add(l);
+                    s1 = null;
+                }
+                else
+                    s1 = s;
+                drag = !drag;
+            }
+            else
+                s1 = null;
+
+        }
         private void frmStage4_Load(object sender, EventArgs e)
         {
-            pbxStage41.Size = new Size(112, 94);
-            pbxStage42.Size = new Size(112, 94);
-            pbxStage43.Size = new Size(112, 94);
-            pbxStage44.Size = new Size(112, 94);
-            pbxStage45.Size = new Size(112, 94);
-            pbxStage46.Size = new Size(112, 94);
-            pbxStage47.Size = new Size(112, 94);
-            pbxStage48.Size = new Size(112, 94);
-            pbxStage49.Size = new Size(112, 94);
+            mc = new Manchoi();
+            Rectangle rc1 = new Rectangle(70, 70, new Point(350, 250));
+            Rectangle rc2 = new Rectangle(70, 70, new Point(100, 250));
+            Rectangle rc3 = new Rectangle(70, 70, new Point(600, 250));
+            mc.shapes.Add(rc1);
+            mc.shapes.Add(rc2);
+            mc.shapes.Add(rc3);
         }
     }
 }

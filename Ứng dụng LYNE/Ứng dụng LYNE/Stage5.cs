@@ -25,20 +25,50 @@ namespace Ứng_dụng_LYNE
             this.Close();
         }
 
+        Manchoi mc;
+        Shape s1;
+        bool drag = false;
+        Rectangle rect;
+        private void frmStage5_Paint(object sender, PaintEventArgs e)
+        {
+            mc.Paint(CreateGraphics());
+
+        }
+
+        Graphics g;
+        private void frmStage5_MouseDown(object sender, MouseEventArgs e)
+        {
+            Shape s = mc.GetShapeClicked(new Point(e.X, e.Y));
+
+            if (s != null)
+            {
+                if (drag)
+                {
+                    // thuc hien kiem tra va noi hai Shape voi nhau
+                    // trong s1
+                    Link l = new Link();
+                    l.begin = s1;
+                    l.end = s;
+                    mc.links.Add(l);
+                    s1 = null;
+                }
+                else
+                    s1 = s;
+                drag = !drag;
+            }
+            else
+                s1 = null;
+
+        }
         private void frmStage5_Load(object sender, EventArgs e)
         {
-            pictureBox1.Size = new Size(119, 107);
-            pictureBox2.Size = new Size(119, 107);
-            pictureBox3.Size = new Size(119, 107);
-            pictureBox4.Size = new Size(119, 107);
-            pictureBox5.Size = new Size(119, 107);
-            pictureBox6.Size = new Size(119, 107);
-            pictureBox7.Size = new Size(119, 107);
-            pictureBox8.Size = new Size(119, 107);
-            pictureBox9.Size = new Size(119, 107);
-            pictureBox10.Size = new Size(119, 107);
-            pictureBox11.Size = new Size(119, 107);
-            pictureBox12.Size = new Size(119, 107);
+            mc = new Manchoi();
+            Rectangle rc1 = new Rectangle(70, 70, new Point(350, 250));
+            Rectangle rc2 = new Rectangle(70, 70, new Point(100, 250));
+            Rectangle rc3 = new Rectangle(70, 70, new Point(600, 250));
+            mc.shapes.Add(rc1);
+            mc.shapes.Add(rc2);
+            mc.shapes.Add(rc3);
         }
     }
 }
