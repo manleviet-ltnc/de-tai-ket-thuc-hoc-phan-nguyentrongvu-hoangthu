@@ -45,18 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle.cs" />
+    <Compile Include="Link.cs" />
     <Compile Include="LYNE.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LYNE.Designer.cs">
       <DependentUpon>LYNE.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manchoi.cs" />
+    <Compile Include="Rectangle.cs" />
     <Compile Include="Sets.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sets.Designer.cs">
       <DependentUpon>Sets.cs</DependentUpon>
     </Compile>
+    <Compile Include="Shape.cs" />
     <Compile Include="Stage1.cs">
       <SubType>Form</SubType>
     </Compile>

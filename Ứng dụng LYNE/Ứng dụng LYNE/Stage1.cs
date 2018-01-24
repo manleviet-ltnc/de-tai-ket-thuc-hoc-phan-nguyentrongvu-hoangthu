@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,10 @@ namespace Ứng_dụng_LYNE
 {
     public partial class frmStage1 : Form
     {
+        Manchoi mc;
+        Shape s1;
+        bool drag = false;
+
         public frmStage1()
         {
             InitializeComponent();
@@ -27,40 +32,49 @@ namespace Ứng_dụng_LYNE
             dlg.ShowDialog();
             this.Close();
         }
-        
-        Graphics g;
-        PictureBox dau;
-        PictureBox cuoi;
-        PictureBox Dau;
-        PictureBox Cuoi;
-        private void pbxImage1_MouseDown(object sender, MouseEventArgs e)
+       
+        Rectangle rect;
+        private void frmStage1_Paint(object sender, PaintEventArgs e)
         {
-            
-            dau = (PictureBox)sender;
-            
-            
+            mc.Paint(CreateGraphics());
             
         }
+        Graphics g;
+        private void frmStage1_MouseDown(object sender, MouseEventArgs e)
+        {
+            Shape s = mc.GetShapeClicked(new Point(e.X, e.Y));
 
-
+            if (s != null)
+            {
+                if (drag)
+                {
+                    // thuc hien kiem tra va noi hai Shape voi nhau
+                    // trong s1
+                    Link l = new Link();
+                    l.begin = s1;
+                    l.end = s;
+                    mc.links.Add(l);
+                    s1 = null;
+                }
+                else
+                    s1 = s;
+                drag = !drag;
+            }
+            else
+                s1 = null;
+            
+        }
 
         private void frmStage1_Load(object sender, EventArgs e)
         {
-            pbxImage1.Size = new Size(105, 101);
-            pbxImage12.Size = new Size(105, 101);
-            pbxImage13.Size = new Size(105, 101);
-        }
-        
+            mc = new Manchoi();
 
-        private void pbxImage1_MouseUp(object sender, MouseEventArgs e)
-        {
-            
-            cuoi = (PictureBox)sender;
-            
-            Pen p = new Pen(Color.White,6F);
-            g = this.CreateGraphics();
-            g.DrawLine(p, dau.Location,cuoi.Location);
-            g.Dispose();
+            Rectangle rc1 = new Rectangle(20, 20, new Point(500, 500));
+            Rectangle rc2 = new Rectangle(20, 20, new Point(200, 200));
+
+            mc.shapes.Add(rc1);
+            mc.shapes.Add(rc2);
         }
+
     }
 }
