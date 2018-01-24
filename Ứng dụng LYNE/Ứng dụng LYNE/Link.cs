@@ -10,10 +10,19 @@ namespace Ứng_dụng_LYNE
     class Link
     {
         public Shape begin;
+       public Shape Begin
+        {
+            get { return begin; }
+            set
+            {
+                begin = value;
+            }
+        }
+        
         public Shape end;
         List<Shape> shape;
-        Point x;
-        int y;
+        
+        
         
         public void Paint(Graphics g)
         {

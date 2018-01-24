@@ -65,9 +65,19 @@ namespace Ứng_dụng_LYNE
             
         }
 
+<<<<<<< HEAD
         private void frmStage1_Load(object sender, EventArgs e)
         {
             mc = new Manchoi();
+=======
+        ////private void frmStage1_Load(object sender, EventArgs e)
+        ////{
+        ////    pbxImage1.Size = new Size(105, 101);
+        ////    pbxImage12.Size = new Size(105, 101);
+        ////    pbxImage13.Size = new Size(105, 101);
+        ////}
+        
+>>>>>>> f2f7c381939be03a1511a4e59921c10022a2e16f
 
             Rectangle rc1 = new Rectangle(20, 20, new Point(500, 500));
             Rectangle rc2 = new Rectangle(20, 20, new Point(200, 200));
@@ -76,5 +86,15 @@ namespace Ứng_dụng_LYNE
             mc.shapes.Add(rc2);
         }
 
+<<<<<<< HEAD
+=======
+        private void frmStage1_Paint(object sender, PaintEventArgs e)
+        {
+            Pen p = new Pen(Color.Red, 30);
+            e.Graphics.DrawRectangle(p, new Rectangle(150, 230, 50, 50));
+            e.Graphics.DrawRectangle(p, new Rectangle(350, 230, 50, 50));
+            e.Graphics.DrawRectangle(p, new Rectangle(550, 230, 50, 50));
+        }
+>>>>>>> f2f7c381939be03a1511a4e59921c10022a2e16f
     }
 }

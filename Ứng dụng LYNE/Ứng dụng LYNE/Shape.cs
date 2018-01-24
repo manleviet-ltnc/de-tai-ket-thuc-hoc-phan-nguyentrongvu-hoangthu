@@ -15,7 +15,7 @@ namespace Ứng_dụng_LYNE
         // lưu các đường nối đến các shapes khác
         List<Shape> links;
         public Shape(Point center)
-        {
+        {           
             this.center = center;
         }
         public abstract void Paint(Graphics g);
