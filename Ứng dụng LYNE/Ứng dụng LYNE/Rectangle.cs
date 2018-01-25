@@ -21,7 +21,7 @@ namespace Ứng_dụng_LYNE
             this.height = height;
             this.width = width;            
         }
-
+        // Hàm paint
         public override void Paint(Graphics g)
         {
             int x = center.X - width / 2;
@@ -30,7 +30,7 @@ namespace Ứng_dụng_LYNE
             System.Drawing.Rectangle rect = new System.Drawing.Rectangle(x, y, width, height);
             g.DrawRectangle(p, rect );
         }
-
+        // Kiểm tra con trỏ chuột có nằm trong hình vẽ hay không
         public override bool HitTest(Point p)
         {
             int x = center.X - width / 2;

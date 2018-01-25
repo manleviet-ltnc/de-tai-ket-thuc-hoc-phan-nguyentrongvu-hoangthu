@@ -16,13 +16,13 @@ namespace Ứng_dụng_LYNE
         {
             this.radius = radius;
         }
-
+        // Hàm paint
         public override void Paint(Graphics g)
         {
             Pen p = new Pen(Color.Red, 30);
             g.DrawEllipse(p, new RectangleF(center,radius));
         }
-
+        // Kiểm tra con trỏ có nằm trong hình vẽ hay không
         public override bool HitTest(Point p)
         {
             int r = (int)radius.Width;

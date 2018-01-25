@@ -16,7 +16,7 @@ namespace Ứng_dụng_LYNE
         {
             InitializeComponent();
         }
-
+        // Chuyển form
         private void btnMenu3_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -28,7 +28,7 @@ namespace Ứng_dụng_LYNE
         Manchoi mc;
         Shape s1;
         bool drag = false;
-
+        // Paint
         private void frmStage3_Paint(object sender, PaintEventArgs e)
         {
             mc.Paint(CreateGraphics());
@@ -36,6 +36,7 @@ namespace Ứng_dụng_LYNE
         }
 
         Graphics g;
+        //Sự kiện mouse down
         private void frmStage3_MouseDown(object sender, MouseEventArgs e)
         {
             Shape s = mc.GetShapeClicked(new Point(e.X, e.Y));
@@ -60,6 +61,7 @@ namespace Ứng_dụng_LYNE
                 s1 = null;
 
         }
+        // Load hình lên
         private void frmStage3_Load(object sender, EventArgs e)
         {
             mc = new Manchoi();

@@ -16,7 +16,7 @@ namespace Ứng_dụng_LYNE
         {
             InitializeComponent();
         }
-
+        // Chuyển form
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();

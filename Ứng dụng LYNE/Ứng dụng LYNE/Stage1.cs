@@ -24,7 +24,7 @@ namespace Ứng_dụng_LYNE
             InitializeComponent();
         }
         
-        
+        // Chuyển form
         private void btnMenu1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -32,13 +32,14 @@ namespace Ứng_dụng_LYNE
             dlg.ShowDialog();
             this.Close();
         }
-       
+        // Paint
         Rectangle rect;
         private void frmStage1_Paint(object sender, PaintEventArgs e)
         {
             mc.Paint(CreateGraphics());
             
         }
+        // Sự kiện mouse down
         Graphics g;
         private void frmStage1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -65,7 +66,7 @@ namespace Ứng_dụng_LYNE
             
         }
 
-
+        // Load form
         private void frmStage1_Load(object sender, EventArgs e)
         {
             mc = new Manchoi();         

@@ -16,7 +16,7 @@ namespace Ứng_dụng_LYNE
         {
             InitializeComponent();
         }
-
+        // CHuyển form
         private void btnStage1_Click(object sender, EventArgs e)
         {
             this.Hide();
